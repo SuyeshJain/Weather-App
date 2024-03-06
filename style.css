@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148623068.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.container {
+    width: 50rem;
+    margin: auto;
+    padding: 40px;
+}
+
+.inputs {
+    padding: 2rem 0;
+    text-align: center;
+    background: rgb(46, 154, 221);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.inputs input[type="text"] {
+    height: 2rem;
+    width: 20rem;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2.5rem;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-right: 2px;
+}
+
+.inputs input[type="submit"] {
+    height: 3rem;
+    width: 6rem;
+    background: #270aca;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.display {
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    width: 32.5rem;
+    color: lightskyblue;
+    display: none;
+}
+
+.wrapper {
+    margin: 0 9rem;
+    background-color: rgb(46, 154, 221);
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.wrapper h2 {
+    height: 3rem;
+    padding: 5px 0;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+.wrapper p {
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.wrapper h2 span {
+    font-size: 1.5rem;
+    color: lightblue;
+}
+
+.wrapper p span {
+    font-size: 1.5rem;
+    color: lightblue;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .wrapper {
+        margin: 20px auto;
+    }
+
+    .inputs input[type="text"],
+    .inputs input[type="submit"] {
+        width: 60%;
+        max-width: none;
+    }
+}
